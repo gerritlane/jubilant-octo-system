@@ -1,0 +1,57 @@
+/* style.css */
+body {
+  background-color: burlywood;
+  color: beige;
+}
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+div.main {
+  border: 8px solid white;
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li.index {
+  border: 2px solid beige;
+  border: 2px solid beige;
+  padding: 8px;
+  margin-bottom: 4px;
+  margin-right: 15%;
+  vertical-align: middle;
+  list-style: none;
+}
+a:visited{
+  color:brown;
+}
+div.ingredients{
+  border: 1px solid white;
+  border-radius: 8px;
+  height: auto;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+img.food {
+  width:432px;
+  height:auto;
+}
+p.center{
+  text-align: center;
+}
