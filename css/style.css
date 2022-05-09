@@ -49,9 +49,14 @@ img.center {
   /* width: 50%; */
 }
 img.food {
-  width:432px;
-  height:auto;
+  width: 432px;
+  height: auto;
 }
 p.center{
   text-align: center;
+}
+.thumb {
+  width: 50px;
+  height: auto;
+
 }
